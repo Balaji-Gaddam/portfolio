@@ -1,0 +1,1280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Creepster&family=Eczar:wght@400;500&family=Moon+Dance&family=Neuton:ital,wght@0,200;1,400&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Wet+Paint&display=swap');
+
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+       
+   width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-div #home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+}
+#home-text h3,h1{
+    margin-top: 0px;
+}
+#home-text h3{
+    font-size: 2rem;
+   font-family: 'Poppins', sans-serif;
+    color:orange;
+}
+#home-text h1{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+#home-text h4{
+    font-size: 0.8rem;
+     font-family: 'Poppins', sans-serif;
+     word-spacing: 3px;
+     margin-top: 5px;
+    color: rgba(0,0, 0,0.6);
+}
+#home-text span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#home-text span a{
+    color: orange;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#home-text span a:hover{
+    color: rgb(173, 50, 239);
+    transition: 0.3s ease;
+}
+/* #header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 0px 0px 10px;
+  
+    position: relative;
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size:1rem;
+    font-weight: 400;
+    padding: 0 0px;
+    padding-right: 10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:transparent;
+    font-size: 20px;
+  }
+  
+  .logo{
+    margin-left: 5%;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .logo_header{
+    display: flex;
+    margin-left: 2%;
+  }
+  
+  .main_nav{
+    display: flex;
+    
+   margin-left: -4rem;
+    margin-right: 0rem;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .main_nav li a:hover{
+    color:rgb(173, 50, 239);
+  }
+  
+  .main_nav li{
+    display: inline;
+    color:black;
+    list-style: none;
+    text-decoration: none;
+  }
+  .main_nav li a{
+    color: black;
+    text-decoration: none;
+  }
+  .navbar_toggle{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+  margin-top: 1rem;
+  background-color: orange;
+  font-weight: 800;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#home-text .button:hover{
+    background-color:  rgb(173, 50, 239);
+    transition: 0.3s ease-in;
+    color: white;
+}
+.main-div #home-img{
+    width: 100%;
+    padding:50px 0 0 50px;
+}
+
+
+
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 218, 205);
+    height: 7vh;
+    position:fixed;
+   
+    cursor: pointer;
+    
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+#navbar a:hover{
+    color: rgb(173, 50, 239);
+    transition:0.3s ease;
+}
+#Name-logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-left: 15px;
+} */
+.about{
+    display: flex;
+    flex-direction: row;
+   word-spacing: 2px;
+   letter-spacing: 0.2px;
+   gap: 4rem;
+   padding: 6rem;
+  
+}
+.about #target , #brush , #energy{
+    background-color: whitesmoke;
+    padding: 2rem;
+    border:2px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+   
+}
+.about #target h1 , #brush h1 , #energy h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.about #target:hover , #brush:hover , #energy:hover{
+    background-color: white;
+    transform: scale(1.2s ease-in);
+   
+}
+.about img{
+    width: 40%;
+}
+.About{
+display: flex;
+flex-direction: row;
+
+padding: 6rem;
+
+}
+#about-img{
+    width: 40%;
+
+}
+#about-text{
+    padding: 40px 0 0 60px;
+    width:60%;
+    
+}
+#about-text h2{
+    color: orange;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+#about-text h1{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+#about-text button{
+    background-color: orange;
+    font-size: 1rem;
+}
+#about-text button:hover{
+    background-color: rgb(173, 50, 239);
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.service{
+    background-color: orange;
+    height: 115vh;
+    margin-top: 15rem;
+   
+
+ }
+ /*
+.service #web ,#web-h1,#web-p{
+    width: 50%;
+    position: relative;
+    bottom:30%;
+    left:50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#web-h1{
+    padding-top: 10px;
+}
+#web-img{
+    bottom: 40px;
+    width: 60%;
+}
+#web{
+    background-color: white;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0, 0,0.3);
+}
+#web-p{
+    width:90%;
+}
+#web-title{
+    position: relative;
+    left:50rem;
+    bottom:10rem;
+    color: white;
+    fontsize
+} */
+#total-web{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+#web-card{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 5rem;
+    left:2rem;
+    width:70%;
+    box-shadow: 5px 5px 5px 5px rgba(0,0, 0,0.3);
+   
+}
+#web-card img{
+    width: 70%;
+}
+#web-card h1, #web-pera{
+    padding:1rem 1rem 1.5rem 2rem;
+}
+#web-title h1{
+    color: white;
+    padding:5rem 0px 0px 7rem;
+    font-size: 3.5rem ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+#total-photoshop{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#photo-card{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 17rem;
+    right:2rem;
+    width:70%;
+    box-shadow: 5px 5px 5px 5px rgba(0,0, 0,0.3);
+   
+}
+#photo-card img{
+    width: 30%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+   
+}
+#photo-card h1, #photo-pera{
+    padding:1rem 1rem 1.5rem 2rem;
+}
+#photo-title h1{
+    color:white;
+    padding:5rem 0px 0px 7rem;
+    font-size: 3.5rem ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.Works{
+    position: relative;
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap:10px;
+}
+#work-card,#work-card1 ,#work-card2  {
+    width: 30%;
+    background-color:white;
+    box-shadow: 5px 1px 5px 2px rgba(0,0, 0,0.3);
+    border: 2px solid orange;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+   
+}
+#work-card img,#work-card1  img ,#work-card2 img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#work-card a,#work-card1 a ,#work-card2 a{
+    text-decoration: none;
+    color: black;
+}
+#work-card img,#work-card1 img{
+        margin-bottom: 10px;
+}
+#work-card p,#work-card1 p {
+    margin-top: 5px;
+}
+#work-card button,#work-card1 button ,#work-card2 button{
+    background-color: orange;
+    border: none;
+    height: 2rem;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#work-card button:hover,#work-card1 button:hover ,#work-card2 button:hover{
+    background-color: rgb(173, 50, 239);
+    color: white;
+    transition: 0.3s ease;
+}
+#web-pera{
+    color: black;
+    font-size: 1rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 9rem;
+   background-color: rgb(173, 50, 239);
+   background-image: url(/intro.png);
+    padding-top: 30px;
+    margin-top: 10rem;
+
+}
+.contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+.contact input{
+    margin-top: 1rem;
+    
+    height: 3rem;
+    padding: 1rem;
+    outline-style:none;
+    display: flex;
+   
+   border-radius: 10px;
+   border: none;
+}
+.contact textarea{
+    margin-top: 1rem;
+   
+    padding: 1rem;
+    height: 3rem;
+    margin-left: 10ren;
+    display: flex;
+   
+   outline-style: none;
+   border-radius: 10px;
+   border: none;
+}
+.contact button{
+    margin-top: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-left: 10ren;
+    display: flex;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   background-color: orange;
+}
+.contact button:hover{
+    background-color: white;
+    color: rgb(173, 50, 239);
+    transition: 0.3s ease-in;
+}
+#work-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    
+    
+}
+
+@media screen and (max-width:1030px){
+    .about{
+        display: flex;
+        flex-direction: row;
+       word-spacing: 2px;
+       letter-spacing: 0.2px;
+       gap: 1rem;
+       padding: 3rem;
+      
+    }
+   
+    #web-card{
+        bottom: 10rem;
+    }
+    #photo-card{
+        bottom:21rem;
+    }
+    #photo-title h1 {
+        color:white;
+        padding: 0rem;
+        padding-left: 2rem;
+        font-size: 3.5rem ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #work-card p,#work-card1 p ,#work-card2 p{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:855px){
+    /* #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0PX;
+        right:-300px;
+        height: 100vh;
+        width: 300px;
+        background-color: whitesmoke;
+        box-shadow: 0 40px 60px rgba(0,0, 0,0.1);
+        padding: 80px 0px 0px 10px ;
+       
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        padding-left: 3rem;
+
+    } */
+
+    @media (max-width: 768px) {
+        /* .nav__link {
+            display: flex;
+            position: static;
+            width: auto;
+            margin-right: 20px;
+            background: none;
+          } */
+        
+          /* .nav__link a {
+            display: none;
+            padding: 15px 20px;
+          } */
+        
+          .hamburger {
+            display:flex;
+          }
+          .nav__link a {
+            display: none;
+            text-align: center;
+            padding: 10px 0;
+          }
+          .navbar{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100vw;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            background-color:transparent;
+            font-size: 20px;
+          }
+        
+          .main_nav{
+            display: none;
+          }
+        
+          .show_nav{
+            padding-top: 2%;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+        
+          .main_nav li{
+            width: 100%;
+            height: 50px;
+            font-size: 25px;
+            justify-content: center;
+            text-align: center;
+            padding: 0%;
+          }
+          .navbar_toggle {
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 30px;
+            color:black;
+            background: transparent;
+            border-color: transparent;
+            transition: all 0.3s linear;
+            cursor: pointer;
+            display: block;
+          }
+          .logo_header{
+            width: 100%;
+            justify-content: space-between;
+            margin-right: 2%;
+          }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main-div #home-text{
+        display: flex;
+        flex-direction:column;
+       
+        padding-left: 2rem;
+    }
+    .main-div{
+        display: flex;
+        flex-direction: column;
+    }
+    #bar{
+        padding-left: 20rem;
+    }
+    #home-text h3{
+        font-size: 1rem;
+      
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding:1rem 1rem 0rem 1rem;
+        padding-top: 5rem;
+    }
+    .About{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .About #about-text{
+        width: 100%;
+        padding: 1rem;
+    }
+    .About #about-img{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .service{
+        background-color: white;
+    } */
+    /* #total-web{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    #total-photosho{
+        display: flex;
+        flex-direction: column;
+        right:0rem;
+        padding: 0rem;
+        margin: 0rem;
+        width: 100%;
+    } */
+    #web-card{
+        width: 90%;
+        padding-left: 0rem;
+        box-shadow: 2px 2px 2px 2px rgba(0,0, 0,0.3);
+        left:1rem;
+       
+    }
+    #photo-card{
+        width: 90%;
+        padding-left: 0rem;
+        box-shadow: 2px 2px 2px 2px rgba(0,0, 0,0.3);
+        left:0rem;
+        margin-left: 1rem;
+        top:-9rem;
+        
+    }
+   /* #photo-title #photo-h1{
+        color: black;
+        font-size: 2rem; 
+        bottom:8rem; 
+    } */
+    #photo-title{
+        left:0rem;
+        display:none;
+    }
+    #web-title{
+        display: none;
+    }
+    
+        .Works{
+            top:18rem;
+            display: flex;
+            flex-direction:column;
+            width: 100%;
+            gap:10px;
+        }
+        #work-card{
+            width: 90%;
+            
+          margin: 1rem;
+         
+            box-shadow: 2px 2px 2px 2px rgba(0,0, 0,0.3);
+        }
+        #work-card1{
+            width: 90%;
+            
+          margin: 1rem;
+       
+            box-shadow: 2px 2px 2px 2px rgba(0,0, 0,0.3);
+        }
+        #work-card2{
+            width: 90%;
+            
+          margin: 1rem;
+          
+            box-shadow: 2px 2px 2px 2px rgba(0,0, 0,0.3);
+        }
+        #work-title{
+            font-size: 3rem;
+            margin-top: 5rem;
+
+        }
+        .contact{
+            padding: 1rem 3rem;
+            padding-top: 10px;
+            margin-top: 20rem;
+        
+        }
+        .contact h1{
+            font-size: 3rem;
+        }
+        #work-card button,#work-card1 button ,#work-card2 button{
+            font-size: 0.8rem;
+        }
+        .about #target img , #brush img , #energy img{
+                width:30%;
+        }
+        .main-div{
+            padding: 1rem; 
+        }
+        #home-img{
+            width:20rem;
+            height: auto;
+            
+        }
+        .main-div #home-img{
+            width: 100%;
+            padding:0px 0 0 0px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* @media (max-width:1030px) { 
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0PX;
+        right:-300px;
+        height: 100vh;
+        width: 300px;
+        background-color: whitesmoke;
+        box-shadow: 0 40px 60px rgba(0,0, 0,0.1);
+        padding: 80px 0px 0px 10px ;
+       
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        padding-left: 3rem;
+
+    }
+    .main-div #home-text{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        padding-left: 4rem;
+    }
+    #bar{
+        padding-left: 20rem;
+    }
+    #home-text h3{
+        font-size: 1.5rem;
+      
+    }
+    #home-text h1{
+        font-size: 3rem;
+       
+    }
+    #home-text h4{
+        font-size: 0.8rem;
+        
+    }
+    .about{
+        display: flex;
+        flex-direction:row;
+        padding: 30px;
+        width: 100%;
+    }
+    .about #target , #brush , #energy{
+      
+        padding: 1rem;
+        border-radius:10px;
+       
+       
+    }
+     #total-web #web-title h1{
+        font-size: 3rem;
+        
+     }
+     #total-photoshop #photo-title h1{
+        font-size: 3rem;
+        
+     }
+    /* #web-title h1{
+        padding:6rem 0px 0px 7rem;
+        font-size: 3rem;
+    }
+    #photo-title h1{
+       bottom: 8rem;
+        font-size: 3rem;
+    } */
+    /* #web-card{
+        bottom: 12rem; 
+    }
+    #photo-card{
+        bottom: 25rem;
+    }
+ }
+
+@media (min-width:870px){
+    .main-div #home-text{
+        padding-top: 5rem;
+       
+    }
+    .main-div img{
+        width: 100%;
+        padding-top: 5rem;
+    }
+    
+    #home-text h3{
+        font-size: 1.5rem;
+      
+    }
+    #home-text h1{
+        font-size: 3rem;
+       
+    }
+    #home-text h4{
+        font-size: 0.8rem;
+        
+    }
+    #bar{
+        padding-left: 8rem;
+    }
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right:-300px;
+        height: 100vh;
+        width: 300px;
+        background-color: whitesmoke;
+        box-shadow: 0 40px 60px rgba(0,0, 0,0.1);
+        padding: 80px 0px 0px 10px ;
+       
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    .about{
+        display: flex;
+        flex-direction:row;
+        padding: 30px;
+        width: 100%;
+        gap:10px;
+
+    }
+    .about #target h1 , #brush h1 , #energy h1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+    }
+    #target-p,#energy-p,#brush-p{
+    font-size: 0.7rem;
+   
+   }
+    .about #target , #brush , #energy{
+      
+        padding: 1rem;
+        border-radius:10px;
+       
+       
+    }
+    .about img{
+        width: 30%;
+    }
+    #about-img{
+        width: 40%;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   #about-text{
+    padding: 40px 0 0 60px;
+    width:60%;
+    
+}
+#about-text h2{
+    
+    font-size: 1rem;
+    
+}
+#about-text h1{
+    font-size:1.5rem;
+    
+}
+}
+#about-text{
+    padding: 20px 0 0 30px;
+    width:100%;
+    
+}
+.About{
+    padding: 2rem;
+    } */
+/* #photo-card #photo-pera{
+    font-size: 0.7rem;
+} */
+/* #web-pera{
+    font-size: 0.7rem;
+} */
+/* #photo-card{
+    bottom: 10rem;
+} */
+/* #web-title h1{
+    padding:6rem 0px 0px 7rem;
+    font-size: 2.5rem;
+} */
+/* #photo-title h1{
+   bottom: 8rem;
+    font-size: 2.5rem;
+} */
+/* #work-card p,#work-card1 p,#work-card2 p {
+        font-size: 0.7rem;
+}
+#work-card button,#work-card1 button ,#work-card2 button{
+    font-size: 0.7rem;
+    margin-top: 3px;
+}
+#work-card img,#work-card1 img{
+    margin-bottom: 5px;
+}
+#total-web #web-title h1{
+    font-size: 1.5rem;
+    color: aqua;
+    
+ }
+ #total-photoshop #photo-title h1{
+    font-size: 1.5rem;
+    color: aqua;
+    
+ } */
+
+
+
+
+
+/* @media (max-width:450px){
+    .main-div {
+        display: flex;
+        flex-direction:column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-div #home-text{
+        padding-left: 1rem;
+    }
+    #bar{
+        padding-left: 10rem;
+    }
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right:-300px;
+        height: 100vh;
+        width: 300px;
+        background-color: whitesmoke;
+        box-shadow: 0 40px 60px rgba(0,0, 0,0.1);
+        padding: 80px 0px 0px 10px ;
+       
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    .about img{
+        width: 40%;
+    }
+    .About{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        }
+    #about-img{
+         width: 80%;  
+    }
+    #about-text{
+        padding: 5px;
+        width:100%;
+        
+    }
+    .main-div img{
+        width: 100%;
+        padding:0px 0 0 10px;
+    }
+    
+    
+    .about{
+        display: flex;
+        flex-direction:column;
+        padding: 10px;
+        width: 100%;
+    }
+    .about img{
+        width: 20%;
+    }
+    
+    .Works{
+       
+        
+        display: flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .service{
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #total-web{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        background-color:none;
+    } */
+    /* #web-title h1{
+        color:black;
+        font-size: 1.2rem;
+        position:relative ; 
+        bottom: 0rem; 
+        top: 0;
+        padding-left: 4rem;
+    } */
+    /* #web-card{
+       position: relative;
+        bottom: 10rem;
+        top:10px;
+        width:100%;
+       padding-top: 10rem;
+       margin-top: 0px;
+       margin-right: 1rem;
+       padding: 0px;
+       left:1rem;
+
+    }
+    #total-photoshop{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:white;
+        width: 100%;
+    } */
+    /* #photo-title h1{
+        color:black;
+        font-size: 1.2rem;
+        position:relative ; 
+        top:1rem;
+        bottom: 0rem; 
+        padding-left: 4rem;
+    } */
+    /* #photo-card{
+        position: relative;
+        bottom: 14rem;
+        top:20px;
+        width:100%;
+       padding-top: 10rem;
+       margin-top: 0px;
+       margin-right: 1rem;
+       padding: 0px;
+       left:1rem;
+     
+    }
+    #work-card,#work-card1 ,#work-card2  {
+        width: 100%;
+        background-color:white;
+        box-shadow: 5px 1px 5px 2px rgba(0,0, 0,0.3);
+        border: 2px solid orange;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 0.5rem;
+       
+    }
+    .service{
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+}  */
